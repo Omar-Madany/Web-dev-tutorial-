@@ -22,7 +22,7 @@ https://www.atlassian.com/git/tutorials/install-git
  - dir → to know what's inside the directory
  - dir /a → to even get the hidden files too
  - explorer "directory name" → to open the directory in the file explorer
- - type null > "file name" → creates a file
+ - type nul > "file name" → creates a file
  - echo "Hello world" → "file name" → creates a file with content written hello name 
  > **[NOTE]**
  >if echo doesn't have a written content right after it , it will add **ECHO is on** line 
@@ -42,9 +42,21 @@ https://www.atlassian.com/git/tutorials/install-git
  - git config --global user.email "yourEmailAddress" → that's make git knows where to commit the repository
  - git config --global user.name "yourUsername" → to tell Git your username
  - git config --local user.email/ "yourEmail" → to make the configuration only in this repository
+ - git reset Head~ → will tell the git to get back to undo the commit and get back to the stage level
+ - git rm "file name"→ for deleting unwated file instead of deleting it manually
+ - git rm -f "file name" → force the repository delete the file whatever the status the repository on
+ - git rm --cahed "file name" →removes the file from the staging
+ - git rm "folder" → remove the folder only not it's content
+ - git rm -r "folder"→ removes the folder and it's content and r stands for recursive
+ - git reset --hard → used to get back to the previous step even if its files deleted it get it back (gets everything back as it's (something like ctrl + z ))
  - git push → upload GIT commits to a remote repository like (Github , Gitlab)
  - git pull → download remote repository to your local machine
  - git status → shows all the status for files and directories
+ - git log → view all commits that you've done
+ - git log --oneline → short summary view for all commits that you've done
+ - usually main branch is called main or master and that's the default branch that u in
+ - git branch → shows u what branch do u have
+ - git branch "branch name" → creates a new branch
  - ls -la → list everything inside the directory (only used on unix/linux sytstems & git bash)
 kvk
 
