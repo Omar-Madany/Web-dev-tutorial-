@@ -57,6 +57,7 @@ https://www.atlassian.com/git/tutorials/install-git
  - usually main branch is called main or master and that's the default branch that u in
  - git branch → shows u what branch do u have
  - git branch "branch name" → creates a new branch
+ - git checkout "branch name" → switches between branches
  - ls -la → list everything inside the directory (only used on unix/linux sytstems & git bash)
 kvk
 
