@@ -22,7 +22,7 @@ https://www.atlassian.com/git/tutorials/install-git
  - dir → to know what's inside the directory
  - dir /a → to even get the hidden files too
  - explorer "directory name" → to open the directory in the file explorer
- - type null > "file name" → creates a file
+ - type nul > "file name" → creates a file
  - echo "Hello world" → "file name" → creates a file with content written hello name 
  > **[NOTE]**
  >if echo doesn't have a written content right after it , it will add **ECHO is on** line 
@@ -42,12 +42,31 @@ https://www.atlassian.com/git/tutorials/install-git
  - git config --global user.email "yourEmailAddress" → that's make git knows where to commit the repository
  - git config --global user.name "yourUsername" → to tell Git your username
  - git config --local user.email/ "yourEmail" → to make the configuration only in this repository
+ - git reset Head~ → will tell the git to get back to undo the commit and get back to the stage level
+ - git rm "file name"→ for deleting unwated file instead of deleting it manually
+ - git rm -f "file name" → force the repository delete the file whatever the status the repository on
+ - git rm --cahed "file name" →removes the file from the staging
+ - git rm "folder" → remove the folder only not it's content
+ - git rm -r "folder"→ removes the folder and it's content and r stands for recursive
+ - git reset --hard → used to get back to the previous step even if its files deleted it get it back (gets everything back as it's (something like ctrl + z ))
  - git push → upload GIT commits to a remote repository like (Github , Gitlab)
  - git pull → download remote repository to your local machine
  - git status → shows all the status for files and directories
+ - git log → view all commits that you've done
+ - git log --oneline → short summary view for all commits that you've done
+ - usually main branch is called main or master and that's the default branch that u in
+ - git branch → shows u what branch do u have
+ - git branch "branch name" → creates a new branch
+ - git checkout "branch name" → switches between branches and can make u switch between commits too
+ - git merge main -m "merging main" → merge the branch u r in with main branch
+ - git merge "branch name" -m"merging the current branch with the branch name written in command" →this usually merge the branch u r in with the branch you've written in merge command
+ - explain the merge conflict 
+ - git diff "branch name 1" "branch name 2"→ compare between branches and commits
  - ls -la → list everything inside the directory (only used on unix/linux sytstems & git bash)
 kvk
 
 
-<h4 align="center" font-size="30px">  Thanks for freecodecamp they were the reason to learn all that</h4>
-<p> <strong><a href="https://youtu.be/mAFoROnOfHs?si=qtgZfHt3KQAbWbaM"> video link</a></strong> </p>
+<h4 align="center" font-size="30px">  Thanks for freecodecamp and Odin Project they were the reason to learn all that</h4>
+<h5>Resources:</h5>
+<p> <strong><a href="https://youtu.be/mAFoROnOfHs?si=qtgZfHt3KQAbWbaM"> Freecodecamp</a></strong> </p>
+<p> <strong><a href="https://www.theodinproject.com/lessons/foundations-git-basics"> The Odin Project</a></strong> </p>
