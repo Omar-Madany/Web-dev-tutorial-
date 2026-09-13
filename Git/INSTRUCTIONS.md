@@ -57,10 +57,16 @@ https://www.atlassian.com/git/tutorials/install-git
  - usually main branch is called main or master and that's the default branch that u in
  - git branch → shows u what branch do u have
  - git branch "branch name" → creates a new branch
- - git checkout "branch name" → switches between branches
+ - git checkout "branch name" → switches between branches and can make u switch between commits too
+ - git merge main -m "merging main" → merge the branch u r in with main branch
+ - git merge "branch name" -m"merging the current branch with the branch name written in command" →this usually merge the branch u r in with the branch you've written in merge command
+ - explain the merge conflict 
+ - git diff "branch name 1" "branch name 2"→ compare between branches and commits
  - ls -la → list everything inside the directory (only used on unix/linux sytstems & git bash)
 kvk
 
 
-<h4 align="center" font-size="30px">  Thanks for freecodecamp they were the reason to learn all that</h4>
-<p> <strong><a href="https://youtu.be/mAFoROnOfHs?si=qtgZfHt3KQAbWbaM"> video link</a></strong> </p>
+<h4 align="center" font-size="30px">  Thanks for freecodecamp and Odin Project they were the reason to learn all that</h4>
+<h5>Resources:</h5>
+<p> <strong><a href="https://youtu.be/mAFoROnOfHs?si=qtgZfHt3KQAbWbaM"> Freecodecamp</a></strong> </p>
+<p> <strong><a href="https://www.theodinproject.com/lessons/foundations-git-basics"> The Odin Project</a></strong> </p>
