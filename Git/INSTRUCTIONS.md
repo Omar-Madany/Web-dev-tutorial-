@@ -22,6 +22,7 @@ https://www.atlassian.com/git/tutorials/install-git
  - dir → to know what's inside the directory
  - dir /a → to even get the hidden files too
  - explorer "directory name" → to open the directory in the file explorer
+ - del "file name → removes file 
  - type nul > "file name" → creates a file
  - echo "Hello world" → "file name" → creates a file with content written hello name 
  > **[NOTE]**
@@ -62,8 +63,12 @@ https://www.atlassian.com/git/tutorials/install-git
  - git merge "branch name" -m"merging the current branch with the branch name written in command" →this usually merge the branch u r in with the branch you've written in merge command
  - explain the merge conflict 
  - git diff "branch name 1" "branch name 2"→ compare between branches and commits
+ - git push origin main/master → sending your local changes to remote repository (origin refers to remote repository and main/master refers to the branch)
+ - git fetch → bringing remote changes to your local repository but not merging them yet
+ - git pull →bringing and merging remote changes to your local repository (git pull = git fetch + git merge)
  - ls -la → list everything inside the directory (only used on unix/linux sytstems & git bash)
-kvk
+ - press q → leaving the bash log
+ - rm "file name" → removes file 
 
 
 <h4 align="center" font-size="30px">  Thanks for freecodecamp and Odin Project they were the reason to learn all that</h4>
