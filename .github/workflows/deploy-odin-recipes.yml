@@ -29,7 +29,7 @@ jobs:
       - name: Upload Recipes
         uses: actions/upload-pages-artifact@v4
         with:
-          path: "./web dev essentials/html essentials/odin-recipes/recipes"
+          path: "./Web Dev Essentials/HTML Essentials/odin-recipes/recipes"
 
       - name: Deploy
         id: deployment
