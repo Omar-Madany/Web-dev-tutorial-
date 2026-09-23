@@ -1,0 +1,13 @@
+/* Add CSS Styling */
+.blButton, button {
+    background-color: black;
+    color: white;
+}
+.second {
+    background-color: yellow;
+    color: black;
+}
+.blButton,.second {
+    font-size: 28px;
+    font-family:helvetica,"Times New Roman",sans-serif;
+}
