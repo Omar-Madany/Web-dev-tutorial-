@@ -8,8 +8,22 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
+  font-size: 32px;
+  font-weight: 700;
+  padding: 16px;
+  padding-bottom: 0;
 }
-
+.container {
+  display: flex;
+  gap: 16px;
+}
+.content {
+  flex: 1;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin: 32px 24px;
+}
 .footer {
   height: 72px;
   background: #eee;
@@ -19,11 +33,41 @@ body {
 .sidebar {
   width: 300px;
   background: royalblue;
-  box-sizing: border-box;
+  box-sizing:border-box;
+  font-size: 24px;
 }
-
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 8px;
+  border-radius: 4px;
+}
+#solution {
+  background: white;
+  color: royalblue;
+  text-decoration: none;
+  display: block;
+  padding: 8px;
+  border-radius: 4px;
+}
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  padding: 16px;
+  margin-bottom: 16px;
+  width: 300px;
+  height: 300px;
+}
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
 }
