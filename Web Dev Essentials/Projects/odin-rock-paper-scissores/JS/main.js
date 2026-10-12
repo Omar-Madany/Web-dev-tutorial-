@@ -1,4 +1,4 @@
-
+let score = document.getElementById("score");
 function getComputerChoice() {
     let randomNumber = Math.floor(Math.random() * 3);
     if (randomNumber === 0) {
@@ -17,7 +17,7 @@ function playersChoice() {
     }
     else if (playerChoice === null || playerChoice === "" || playerChoice === "leave") {
         alert("Game cancelled.");
-        alert(`Final score: Player: ${playerScore}, Computer: ${computerScore}`);
+        score.textContent = `Player: ${playerScore}, Computer: ${computerScore}, Ties: ${tieScore}`;
         return null;
     }
     else {
@@ -29,7 +29,7 @@ let playerScore = 0;
 let computerScore = 0;
 let tieScore = 0;
 let round = 0;
-let score = document.getElementById("score");
+
 function playRound(playerSelection, computerSelection) {
     if (playerSelection === computerSelection) {
         tieScore++;
